@@ -1,0 +1,48 @@
+{
+  "" : {
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuill-master.dia",
+    "emit-module-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuill-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuill-master-emit-module.dia",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuill-master.swiftdeps"
+  },
+  "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuill/CalendarView.swift" : {
+    "const-values" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.swiftconstvalues",
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.dia",
+    "index-unit-output-path" : "/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.o",
+    "llvm-bc" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.bc",
+    "object" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.o",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView.swiftdeps",
+    "swiftmodule" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/CalendarView~partial.swiftmodule"
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuill/ContentView.swift" : {
+    "const-values" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuill/QuietQuillApp.swift" : {
+    "const-values" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.swiftconstvalues",
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.dia",
+    "index-unit-output-path" : "/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.o",
+    "llvm-bc" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.bc",
+    "object" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.o",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp.swiftdeps",
+    "swiftmodule" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/QuietQuill.build/Debug-iphonesimulator/QuietQuill.build/Objects-normal/arm64/QuietQuillApp~partial.swiftmodule"
+  }
+}

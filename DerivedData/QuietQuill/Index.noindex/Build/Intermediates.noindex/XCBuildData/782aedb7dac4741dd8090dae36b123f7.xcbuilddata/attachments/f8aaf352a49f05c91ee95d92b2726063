@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-maccatalyst/QuietQuillUITests.build/Objects-normal/arm64/QuietQuillUITests-master.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-maccatalyst/QuietQuillUITests.build/Objects-normal/arm64/QuietQuillUITests-master.dia",
+    "emit-module-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-maccatalyst/QuietQuillUITests.build/Objects-normal/arm64/QuietQuillUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-maccatalyst/QuietQuillUITests.build/Objects-normal/arm64/QuietQuillUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-maccatalyst/QuietQuillUITests.build/Objects-normal/arm64/QuietQuillUITests-master.swiftdeps"
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuillUITests/QuietQuillUITests.swift" : {
+
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuillUITests/QuietQuillUITestsLaunchTests.swift" : {
+
+  }
+}

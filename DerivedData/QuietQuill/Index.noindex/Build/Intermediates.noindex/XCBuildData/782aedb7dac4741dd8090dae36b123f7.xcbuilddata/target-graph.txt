@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Target 'QuietQuillUITests' in project 'QuietQuill' (no dependencies)
+Target 'QuietQuillUITests' in project 'QuietQuill'
+➜ Explicit dependency on target 'QuietQuill' in project 'QuietQuill'
+Target 'QuietQuillUITests' in project 'QuietQuill'
+➜ Explicit dependency on target 'QuietQuill' in project 'QuietQuill'
+Target 'QuietQuillTests' in project 'QuietQuill' (no dependencies)
+Target 'QuietQuillTests' in project 'QuietQuill'
+➜ Explicit dependency on target 'QuietQuill' in project 'QuietQuill'
+Target 'QuietQuillTests' in project 'QuietQuill'
+➜ Explicit dependency on target 'QuietQuill' in project 'QuietQuill'
+Target 'QuietQuill' in project 'QuietQuill' (no dependencies)
+Target 'QuietQuill' in project 'QuietQuill' (no dependencies)

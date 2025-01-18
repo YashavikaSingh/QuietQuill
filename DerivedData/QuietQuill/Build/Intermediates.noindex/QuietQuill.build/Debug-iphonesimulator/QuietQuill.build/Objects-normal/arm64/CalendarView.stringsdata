@@ -1,0 +1,24 @@
+{
+  "source": "/Users/yashavikasingh/QuietQuill/QuietQuill/CalendarView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 70
+        }
+      }
+    ]
+  },
+  "version": 1
+}

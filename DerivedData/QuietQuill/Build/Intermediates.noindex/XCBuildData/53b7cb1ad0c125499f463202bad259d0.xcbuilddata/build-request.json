@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "xojit"
+  },
+  "buildDescriptionID" : "d945a6aef340c1b850cfd3844a8d60a1",
+  "configuredTargets" : [
+    {
+      "guid" : "66368767bc8fab26723d3ecffab661c60ee42016040ad21c996f8c2d8c91fd96"
+    }
+  ],
+  "containerPath" : "/Users/yashavikasingh/QuietQuill/QuietQuill.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Products",
+      "derivedDataPath" : "/Users/yashavikasingh/QuietQuill/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,5",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Build/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "CAF9C74B-770F-45EA-B0B3-F41C5A375735",
+          "TARGET_DEVICE_MODEL" : "iPhone14,5",
+          "TARGET_DEVICE_OS_VERSION" : "18.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,56 @@
+{
+  "source": "/Users/yashavikasingh/QuietQuill/QuietQuill/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Calendar",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Suggestion: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Suggestion",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sentiment: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analyze Sentiment",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 123
+        }
+      }
+    ]
+  },
+  "version": 1
+}

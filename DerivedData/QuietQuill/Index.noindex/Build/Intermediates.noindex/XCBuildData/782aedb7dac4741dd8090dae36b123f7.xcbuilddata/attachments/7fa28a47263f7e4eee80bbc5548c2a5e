@@ -1,0 +1,18 @@
+{
+  "" : {
+    "dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/Objects-normal/arm64/QuietQuill-master.d",
+    "diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/Objects-normal/arm64/QuietQuill-master.dia",
+    "emit-module-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/Objects-normal/arm64/QuietQuill-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/Objects-normal/arm64/QuietQuill-master-emit-module.dia",
+    "swift-dependencies" : "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/Objects-normal/arm64/QuietQuill-master.swiftdeps"
+  },
+  "/Users/yashavikasingh/QuietQuill/DerivedData/QuietQuill/Index.noindex/Build/Intermediates.noindex/QuietQuill.build/Debug-iphoneos/QuietQuill.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuill/ContentView.swift" : {
+
+  },
+  "/Users/yashavikasingh/QuietQuill/QuietQuill/QuietQuillApp.swift" : {
+
+  }
+}
