@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1D7A56E6E5532E165F6234D464ED1C5D2E4FF0D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B1D7A56E6E5532E165F6234D464ED1C5D2E4FF0D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "74FEB3D3-A70E-4885-8C93-CE8B084A9370",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B1D7A56E6E5532E165F6234D464ED1C5D2E4FF0D" : "QuietQuill\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuietQuill",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuietQuill.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:YashavikaSingh\/QuietQuill.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1D7A56E6E5532E165F6234D464ED1C5D2E4FF0D"
+    }
+  ]
+}

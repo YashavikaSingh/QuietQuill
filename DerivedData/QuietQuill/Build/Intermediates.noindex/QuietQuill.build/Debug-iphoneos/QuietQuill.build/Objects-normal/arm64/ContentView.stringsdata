@@ -4,34 +4,58 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Calendar",
-        "location": {
-          "startingColumn": 30,
-          "startingLine": 23
-        }
-      },
-      {
-        "comment": "",
-        "key": "Suggestion: %@",
+        "key": "QuietQuill",
         "location": {
           "startingColumn": 34,
-          "startingLine": 90
+          "startingLine": 13
         }
       },
       {
         "comment": "",
-        "key": "Create Suggestion",
+        "key": "Calendar",
         "location": {
-          "startingColumn": 38,
-          "startingLine": 80
+          "startingColumn": 22,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sentiment",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 39
         }
       },
       {
         "comment": "",
         "key": "Sentiment: %@",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 104
+          "startingColumn": 26,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter Title",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start writing your diary entry...",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Suggestion",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 108
         }
       },
       {
@@ -39,15 +63,15 @@
         "key": "Analyze Sentiment",
         "location": {
           "startingColumn": 38,
-          "startingLine": 97
+          "startingLine": 116
         }
       },
       {
         "comment": "",
-        "key": "Done",
+        "key": "Suggestion",
         "location": {
-          "startingColumn": 35,
-          "startingLine": 117
+          "startingColumn": 38,
+          "startingLine": 128
         }
       }
     ]

@@ -14,40 +14,32 @@
         "comment": "",
         "key": "Suggestion: %@",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 96
+          "startingColumn": 38,
+          "startingLine": 91
         }
       },
       {
         "comment": "",
         "key": "Create Suggestion",
         "location": {
-          "startingColumn": 78,
-          "startingLine": 86
+          "startingColumn": 82,
+          "startingLine": 83
         }
       },
       {
         "comment": "",
         "key": "Sentiment: %@",
         "location": {
-          "startingColumn": 34,
-          "startingLine": 110
+          "startingColumn": 38,
+          "startingLine": 106
         }
       },
       {
         "comment": "",
         "key": "Analyze Sentiment",
         "location": {
-          "startingColumn": 78,
-          "startingLine": 103
-        }
-      },
-      {
-        "comment": "",
-        "key": "Done",
-        "location": {
-          "startingColumn": 75,
-          "startingLine": 123
+          "startingColumn": 82,
+          "startingLine": 98
         }
       }
     ]

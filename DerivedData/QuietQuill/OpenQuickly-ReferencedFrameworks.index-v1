@@ -3,6 +3,7 @@
 <plist version="1.0">
 <array>
 	<string>SwiftUI</string>
+	<string>Charts</string>
 	<string>QuietQuill</string>
 	<string>Testing</string>
 	<string>XCTest</string>

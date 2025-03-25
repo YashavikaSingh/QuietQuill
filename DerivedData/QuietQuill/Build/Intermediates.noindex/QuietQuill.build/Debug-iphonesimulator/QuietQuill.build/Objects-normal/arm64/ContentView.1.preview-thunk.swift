@@ -26,7 +26,7 @@ struct ContentView: View {
             CalendarView(onDaySelected: { date in
                 selectedDate = date
             })
-            .navigationTitle(__designTimeString("#3225_0", fallback: "Calendar"))
+            .navigationTitle(__designTimeString("#4292_0", fallback: "Calendar"))
             .background(
                 NavigationLink(
                     destination: selectedDate != nil ? AnyView(NotesView(date: selectedDate!)) : AnyView(EmptyView()), // Use AnyView to wrap both
@@ -56,84 +56,71 @@ struct NotesView: View {
     @State private var currentDate = Date()
     @FocusState private var isTextEditorFocused: Bool
 
+    
     var body: some View {
         NavigationView {
-            ScrollView{
-                VStack {
-                    
-                    TextEditor(text: $title)
-                        .frame(height: __designTimeInteger("#3225_1", fallback: 50))
-                        .onChange(of: title) { newText in
-                            // Auto-save whenever the text changes
-                            autoSaveTitle(title: newText)
-                        }// Set height to 0 to prevent it from taking up space
-                    
-                    TextEditor(text: $text)
-                        .padding()
-                        .focused($isTextEditorFocused)
-                        .onChange(of: text) { newText in
-                            // Auto-save whenever the text changes
-                            autoSaveText(text: newText)
-                        }
-                    
-                    
-                    Spacer()
-                    HStack{
-                        
-                        
-                        VStack{
-                            Button(action: generateSuggestion) {
-                                Text(__designTimeString("#3225_2", fallback: "Create Suggestion"))
-                                    .padding()
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(__designTimeInteger("#3225_3", fallback: 10))
+            GeometryReader { geometry in
+                ScrollView {
+                    VStack {
+                        TextEditor(text: $title)
+                            .frame(height: __designTimeInteger("#4292_1", fallback: 50))
+                            .onChange(of: title) { newText in
+                                autoSaveTitle(title: newText)
                             }
-                            .padding()
-                            
-                            
-                            
-                            Text("Suggestion: \(suggestion)")
-                                .padding()
-                                .font(.headline)
-                        }
                         
-                        VStack{
-                            Button(action: analyzeSentiment) {
-                                Text(__designTimeString("#3225_4", fallback: "Analyze Sentiment"))
-                                    .padding()
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(__designTimeInteger("#3225_5", fallback: 10))
+                        TextEditor(text: $text)
+                            .padding()
+                            .focused($isTextEditorFocused)
+                            .onChange(of: text) { newText in
+                                autoSaveText(text: newText)
                             }
-                            .padding()
-                            Text("Sentiment: \(sentiment)")
-                                .padding()
-                                .font(.headline)
-                        }
                         
+                        Spacer()
+                        
+                        HStack {
+                            VStack {
+                                Button(action: generateSuggestion) {
+                                    Text(__designTimeString("#4292_2", fallback: "Create Suggestion"))
+                                        .padding()
+                                        .background(Color.blue)
+                                        .foregroundColor(.white)
+                                        .cornerRadius(__designTimeInteger("#4292_3", fallback: 10))
+                                }
+                                .padding()
+                                
+                                Text("Suggestion: \(suggestion)")
+                                    .padding()
+                                    .font(.headline)
+                            }
+                            
+                            VStack {
+                                Button(action: analyzeSentiment) {
+                                    Text(__designTimeString("#4292_4", fallback: "Analyze Sentiment"))
+                                        .padding()
+                                        .background(Color.blue)
+                                        .foregroundColor(.white)
+                                        .cornerRadius(__designTimeInteger("#4292_5", fallback: 10))
+                                }
+                                
+                                
+                                Text("Sentiment: \(sentiment)")
+                                    .padding()
+                                    .font(.headline)
+                            }
+                        }
+                        .frame(maxHeight: .infinity, alignment: .bottom) // Push buttons to the bottom
                     }
-                    
+                    .frame(width: geometry.size.width, height: geometry.size.height) // Ensure it takes full height
                 }
-                
             }
-            .toolbar {
-                       // Add the "Done" button to the toolbar
-                       ToolbarItemGroup(placement: .keyboard) {
-                           Button(__designTimeString("#3225_6", fallback: "Done")) {
-                               hideKeyboard() // Dismiss keyboard when the "Done" button is pressed
-                           }
-                       }
-                   }
             .navigationTitle(Text(formattedDate()))
             .padding()
             .onAppear {
-                // Load saved title and text when the view appears
                 loadSavedData()
             }
         }
     }
-    
+
     func formattedDate() -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
@@ -147,7 +134,7 @@ struct NotesView: View {
         let fileURL = documentsDirectory.appendingPathComponent("text_\(formattedDateForFile()).txt")
         
         do {
-            try text.write(to: fileURL, atomically: __designTimeBoolean("#3225_7", fallback: true), encoding: .utf8)
+            try text.write(to: fileURL, atomically: __designTimeBoolean("#4292_6", fallback: true), encoding: .utf8)
             print("Text auto-saved to \(fileURL)")
         } catch {
             print("Error auto-saving text: \(error.localizedDescription)")
@@ -160,7 +147,7 @@ struct NotesView: View {
         let fileURL = documentsDirectory.appendingPathComponent("title_\(formattedDateForFile()).txt")
         
         do {
-            try title.write(to: fileURL, atomically: __designTimeBoolean("#3225_8", fallback: true), encoding: .utf8)
+            try title.write(to: fileURL, atomically: __designTimeBoolean("#4292_7", fallback: true), encoding: .utf8)
             print("Title auto-saved to \(fileURL)")
         } catch {
             print("Error auto-saving title: \(error.localizedDescription)")
@@ -186,7 +173,7 @@ struct NotesView: View {
 
     func formattedDateForFile() -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = __designTimeString("#3225_9", fallback: "yyyy-MM-dd") // Use a simple date format suitable for filenames
+        dateFormatter.dateFormat = __designTimeString("#4292_8", fallback: "yyyy-MM-dd") // Use a simple date format suitable for filenames
         return dateFormatter.string(from: date)
     }
 
@@ -199,22 +186,22 @@ struct NotesView: View {
 
     func analyzeSentiment() {
         // Backend URL
-        guard let url = URL(string: __designTimeString("#3225_10", fallback: "https://bbcf-122-161-65-27.ngrok-free.app/analyze_sentiment/")) else {
-            print(__designTimeString("#3225_11", fallback: "Invalid URL"))
+        guard let url = URL(string: __designTimeString("#4292_9", fallback: "https://f05f-2607-fb91-309a-64a-6c91-c9c4-f6ff-e54.ngrok-free.app/analyze_sentiment/")) else {
+            print(__designTimeString("#4292_10", fallback: "Invalid URL"))
             return
         }
 
         // Create JSON data
-        let requestBody: [String: String] = [__designTimeString("#3225_12", fallback: "note"): text]
+        let requestBody: [String: String] = [__designTimeString("#4292_11", fallback: "note"): text]
         guard let jsonData = try? JSONSerialization.data(withJSONObject: requestBody) else {
-            print(__designTimeString("#3225_13", fallback: "Failed to serialize JSON"))
+            print(__designTimeString("#4292_12", fallback: "Failed to serialize JSON"))
             return
         }
 
         // Configure the request
         var request = URLRequest(url: url)
-        request.httpMethod = __designTimeString("#3225_14", fallback: "POST")
-        request.setValue(__designTimeString("#3225_15", fallback: "application/json"), forHTTPHeaderField: __designTimeString("#3225_16", fallback: "Content-Type"))
+        request.httpMethod = __designTimeString("#4292_13", fallback: "POST")
+        request.setValue(__designTimeString("#4292_14", fallback: "application/json"), forHTTPHeaderField: __designTimeString("#4292_15", fallback: "Content-Type"))
         request.httpBody = jsonData
 
         // Make the network call
@@ -225,7 +212,7 @@ struct NotesView: View {
             }
 
             guard let data = data else {
-                print(__designTimeString("#3225_17", fallback: "No data received"))
+                print(__designTimeString("#4292_16", fallback: "No data received"))
                 return
             }
 
@@ -237,11 +224,11 @@ struct NotesView: View {
             // Parse the response
             if let result = try? JSONDecoder().decode(SentimentResponse.self, from: data) {
                 DispatchQueue.main.async {
-                    sentiment = result.mood ?? __designTimeString("#3225_18", fallback: "not working")
+                    sentiment = result.mood ?? __designTimeString("#4292_17", fallback: "not working")
                     print("Sentiment score: \(result.sentiment_score)")
                 }
             } else {
-                print(__designTimeString("#3225_19", fallback: "Failed to decode response"))
+                print(__designTimeString("#4292_18", fallback: "Failed to decode response"))
             }
         }.resume()
     }
@@ -254,22 +241,22 @@ struct NotesView: View {
 
         func generateSuggestion() {
             // Backend URL for suggestion generation
-            guard let url = URL(string: __designTimeString("#3225_20", fallback: "https://bbcf-122-161-65-27.ngrok-free.app/generate")) else {
-                print(__designTimeString("#3225_21", fallback: "Invalid URL"))
+            guard let url = URL(string: __designTimeString("#4292_19", fallback: "https://f05f-2607-fb91-309a-64a-6c91-c9c4-f6ff-e54.ngrok-free.app/generate")) else {
+                print(__designTimeString("#4292_20", fallback: "Invalid URL"))
                 return
             }
 
             // Create JSON data
-            let requestBody: [String: String] = [__designTimeString("#3225_22", fallback: "text"): text]
+            let requestBody: [String: String] = [__designTimeString("#4292_21", fallback: "text"): text]
             guard let jsonData = try? JSONSerialization.data(withJSONObject: requestBody) else {
-                print(__designTimeString("#3225_23", fallback: "Failed to serialize JSON"))
+                print(__designTimeString("#4292_22", fallback: "Failed to serialize JSON"))
                 return
             }
 
             // Configure the request
             var request = URLRequest(url: url)
-            request.httpMethod = __designTimeString("#3225_24", fallback: "POST")
-            request.setValue(__designTimeString("#3225_25", fallback: "application/json"), forHTTPHeaderField: __designTimeString("#3225_26", fallback: "Content-Type"))
+            request.httpMethod = __designTimeString("#4292_23", fallback: "POST")
+            request.setValue(__designTimeString("#4292_24", fallback: "application/json"), forHTTPHeaderField: __designTimeString("#4292_25", fallback: "Content-Type"))
             request.httpBody = jsonData
 
             // Make the network call
@@ -280,7 +267,7 @@ struct NotesView: View {
                 }
 
                 guard let data = data else {
-                    print(__designTimeString("#3225_27", fallback: "No data received"))
+                    print(__designTimeString("#4292_26", fallback: "No data received"))
                     return
                 }
 
@@ -296,14 +283,14 @@ struct NotesView: View {
                         print("Generated Suggestion: \(result.suggestion)")
                     }
                 } else {
-                    print(__designTimeString("#3225_28", fallback: "Failed to decode response"))
+                    print(__designTimeString("#4292_27", fallback: "Failed to decode response"))
                 }
             }.resume()
         }
     
     
     func hideKeyboard() {
-            isTextEditorFocused = __designTimeBoolean("#3225_29", fallback: false) // Unfocus the TextEditor to dismiss the keyboard
+            isTextEditorFocused = __designTimeBoolean("#4292_28", fallback: false) // Unfocus the TextEditor to dismiss the keyboard
         }
 }
 
