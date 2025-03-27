@@ -6,7 +6,7 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>83951341-126D-48FF-86D8-E6C9BD2AEB6A</key>
+		<key>C9E69A77-D8E8-4C60-8650-79FF058950CE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>83951341-126D-48FF-86D8-E6C9BD2AEB6A.xcactivitylog</string>
+			<string>C9E69A77-D8E8-4C60-8650-79FF058950CE.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -29,7 +29,7 @@
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
-				<integer>5</integer>
+				<integer>7</integer>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>QuietQuill project</string>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Build QuietQuill</string>
 			<key>timeStartedRecording</key>
-			<real>764638216.38496697</real>
+			<real>764747906.03004098</real>
 			<key>timeStoppedRecording</key>
-			<real>764638220.10061002</real>
+			<real>764747908.77766895</real>
 			<key>title</key>
 			<string>Build QuietQuill</string>
 			<key>uniqueIdentifier</key>
-			<string>83951341-126D-48FF-86D8-E6C9BD2AEB6A</string>
+			<string>C9E69A77-D8E8-4C60-8650-79FF058950CE</string>
 		</dict>
-		<key>B1629B2B-48B4-4143-AD3C-FCA1F0ABB8DC</key>
+		<key>CC89748C-3F8F-4246-9F84-F1828D5B1A55</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -57,7 +57,49 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B1629B2B-48B4-4143-AD3C-FCA1F0ABB8DC.xcactivitylog</string>
+			<string>CC89748C-3F8F-4246-9F84-F1828D5B1A55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>7</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>QuietQuill project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>QuietQuill</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build (Automatic) QuietQuill</string>
+			<key>timeStartedRecording</key>
+			<real>764747915.14872706</real>
+			<key>timeStoppedRecording</key>
+			<real>764747917.90003705</real>
+			<key>title</key>
+			<string>Build (Automatic) QuietQuill</string>
+			<key>uniqueIdentifier</key>
+			<string>CC89748C-3F8F-4246-9F84-F1828D5B1A55</string>
+		</dict>
+		<key>FDC1E3CE-3DBC-47A1-8B7E-1726E286B5C1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FDC1E3CE-3DBC-47A1-8B7E-1726E286B5C1.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -67,7 +109,7 @@
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>6</integer>
+				<integer>1</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -82,13 +124,13 @@
 			<key>signature</key>
 			<string>Build QuietQuill</string>
 			<key>timeStartedRecording</key>
-			<real>764638097.06415796</real>
+			<real>764747717.15059602</real>
 			<key>timeStoppedRecording</key>
-			<real>764638097.80687499</real>
+			<real>764747718.00901699</real>
 			<key>title</key>
 			<string>Build QuietQuill</string>
 			<key>uniqueIdentifier</key>
-			<string>B1629B2B-48B4-4143-AD3C-FCA1F0ABB8DC</string>
+			<string>FDC1E3CE-3DBC-47A1-8B7E-1726E286B5C1</string>
 		</dict>
 	</dict>
 </dict>

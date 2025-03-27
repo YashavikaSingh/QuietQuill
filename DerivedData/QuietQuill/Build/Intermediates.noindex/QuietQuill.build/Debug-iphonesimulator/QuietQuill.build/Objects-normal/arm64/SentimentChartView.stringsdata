@@ -1,0 +1,40 @@
+{
+  "source": "/Users/yashavikasingh/QuietQuill/QuietQuill/SentimentChartView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Monthly Summary: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monthly Sentiment Overview",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Month",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sentiment Score",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 157
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -4,42 +4,74 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Calendar",
-        "location": {
-          "startingColumn": 70,
-          "startingLine": 29
-        }
-      },
-      {
-        "comment": "",
-        "key": "Suggestion: %@",
-        "location": {
-          "startingColumn": 38,
-          "startingLine": 91
-        }
-      },
-      {
-        "comment": "",
-        "key": "Create Suggestion",
-        "location": {
-          "startingColumn": 82,
-          "startingLine": 83
-        }
-      },
-      {
-        "comment": "",
         "key": "Sentiment: %@",
         "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter Title",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start writing your diary entry...",
+        "location": {
           "startingColumn": 38,
-          "startingLine": 106
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Suggestion",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 99
         }
       },
       {
         "comment": "",
         "key": "Analyze Sentiment",
         "location": {
-          "startingColumn": 82,
-          "startingLine": 98
+          "startingColumn": 38,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Suggestion",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "QuietQuill",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 388
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendar",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sentiment",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 414
         }
       }
     ]

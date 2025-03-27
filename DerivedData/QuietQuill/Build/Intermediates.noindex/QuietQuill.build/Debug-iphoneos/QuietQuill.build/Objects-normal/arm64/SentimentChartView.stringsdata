@@ -4,10 +4,18 @@
     "Localizable": [
       {
         "comment": "",
+        "key": "Monthly Summary: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
         "key": "Monthly Sentiment Overview",
         "location": {
           "startingColumn": 18,
-          "startingLine": 15
+          "startingLine": 142
         }
       },
       {
@@ -15,7 +23,7 @@
         "key": "Month",
         "location": {
           "startingColumn": 35,
-          "startingLine": 23
+          "startingLine": 150
         }
       },
       {
@@ -23,7 +31,7 @@
         "key": "Sentiment Score",
         "location": {
           "startingColumn": 35,
-          "startingLine": 24
+          "startingLine": 151
         }
       }
     ]

@@ -6,10 +6,10 @@
 	<integer>11</integer>
 	<key>logs</key>
 	<dict>
-		<key>6BA9EA87-0C17-4C42-8B58-2865097E3C3B</key>
+		<key>D7DB8F44-A7A6-4E66-9B2E-531BEC08F5DD</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>B1629B2B-48B4-4143-AD3C-FCA1F0ABB8DC</string>
+			<string>FDC1E3CE-3DBC-47A1-8B7E-1726E286B5C1</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -17,7 +17,7 @@
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>6</integer>
+				<integer>1</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -30,7 +30,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-QuietQuill-2025.03.25_19-28-17--0400.xcresult</string>
+			<string>Run-QuietQuill-2025.03.27_01-55-17--0400.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -44,7 +44,7 @@
 				<key>totalNumberOfAnalyzerIssues</key>
 				<integer>0</integer>
 				<key>totalNumberOfErrors</key>
-				<integer>6</integer>
+				<integer>1</integer>
 				<key>totalNumberOfTestFailures</key>
 				<integer>0</integer>
 				<key>totalNumberOfWarnings</key>
@@ -59,13 +59,13 @@
 			<key>signature</key>
 			<string>Run QuietQuill</string>
 			<key>timeStartedRecording</key>
-			<real>764638097.06384802</real>
+			<real>764747717.150383</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run QuietQuill</string>
 			<key>uniqueIdentifier</key>
-			<string>6BA9EA87-0C17-4C42-8B58-2865097E3C3B</string>
+			<string>D7DB8F44-A7A6-4E66-9B2E-531BEC08F5DD</string>
 		</dict>
 	</dict>
 </dict>
