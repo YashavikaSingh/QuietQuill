@@ -1,4 +1,5 @@
 # QuietQuill: Your Personal Journaling and Sentiment Analysis Companion
+# BackendRepo: https://github.com/YashavikaSingh/QuietQuillBackend
 
 [![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-15.0+-blue.svg)](https://developer.apple.com/xcode/)
